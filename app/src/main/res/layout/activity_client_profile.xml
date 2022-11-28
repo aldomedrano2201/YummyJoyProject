@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".ClientProfileActivity">
+
+
+    <!-- TextView for heading -->
+    <TextView
+        android:id="@+id/tvClientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome back!"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvClientEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_gravity="center"/>
+
+
+
+    <!-- Button for Login with text "Login" -->
+    <Button
+        android:id="@+id/clientProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:gravity="left"/>
+    <Button
+        android:id="@+id/findMealProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Meals or Products"
+        android:gravity="left"
+        />
+    <Button
+        android:id="@+id/writeReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write a Review"
+        android:gravity="left"
+        />
+    <Button
+        android:id="@+id/clientFAQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAQ"
+        android:gravity="left"
+        />
+
+    <!-- ProgressBar for Loading Time -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:gravity="center"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "222615930565",
+    "project_id": "yummyjoyprj",
+    "storage_bucket": "yummyjoyprj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222615930565:android:348f4355b81731d05312ac",
+        "android_client_info": {
+          "package_name": "com.example.prjyummyjoy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222615930565-v8eduo2lf0i5bfrh96f85rd9hmv18hmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdnifPBSCogJvmujMgnWU9W7P_vGsjPJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222615930565-v8eduo2lf0i5bfrh96f85rd9hmv18hmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

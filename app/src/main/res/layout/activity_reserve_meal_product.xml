@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".ReserveMealProductActivity">
+
+    <ImageView
+        android:layout_width="206dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/yummyjoy" />
+
+    <TextView
+        android:id="@+id/tvNameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome "
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <!-- TextView for heading -->
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of Meal or Product + Price"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPlaceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place: "
+        />
+
+    <!-- Edit text for email -->
+    <TextView
+        android:id="@+id/tvNameItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meal or Product name: "
+        />
+
+    <!-- Edit text for password -->
+    <TextView
+        android:id="@+id/tvItemAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of products or meals available: "
+         />
+
+    <TextView
+        android:id="@+id/tvTimeItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maximum hours available to pickup: "
+         />
+
+    <TextView
+        android:id="@+id/tvPriceItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price: "
+        />
+
+    <TextView
+        android:id="@+id/tvItemStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        />
+    <TextView
+        android:id="@+id/tvPlaceEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        />
+
+    <TextView
+        android:id="@+id/tvPlacePhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone: "
+        />
+
+    <TextView
+        android:id="@+id/tvPlaceAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+         />
+
+    <TextView
+        android:id="@+id/tvPostalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Postal Code: "
+        />
+
+    <EditText
+        android:id="@+id/edItemReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your review"
+        android:inputType="textPersonName"
+        android:visibility="invisible"/>
+
+
+    <!-- Button for register with text "Register" -->
+    <Button
+        android:id="@+id/btnReserve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reserve it!"
+        android:visibility="visible"
+         />
+
+    <!-- Button for writing a review -->
+    <Button
+        android:id="@+id/btnWriteReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post the review"
+        android:visibility="invisible"
+        />
+
+    <!-- ProgressBar for loading time -->
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>
