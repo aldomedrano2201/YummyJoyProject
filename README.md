@@ -1,10 +1,6 @@
 # YummyJoyProject
 Yummy Joy is an Android mobile application that allows groceries stores and restaurants to provide items at a affordable price and fight the food waste.
 
-# LOGO
-[Project Proposal.pdf](https://github.com/aldomedrano2201/YummyJoyProject/files/10723802/Project.Proposal.pdf)
-
-
 # Goals:
 
 Fight against food waste.
@@ -20,5 +16,10 @@ When a restaurant has food that hasn't sold or is about to expire, they can regi
 
 The restaurant or shop must update the number of remaining meals or items that can be reserved, as well as the number of meals or products that are now available, the time it will take to get the meal, and how long the restaurant or shop will hold the reservation.
 
+# Project Proposal:
+
+Please check the following document:
+
+[Project Proposal.pdf](https://github.com/aldomedrano2201/YummyJoyProject/files/10723817/Project.Proposal.pdf)
 
 
